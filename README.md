@@ -37,11 +37,21 @@ Follow these steps to set up and run the application locally:
 
 3. **Start the Development Server**
 
+   If the `start` script is missing, add it manually to the `package.json` file in your project root:
+
+   ```json
+   "scripts": {
+     "start": "react-scripts start"
+   }
+   ```
+
+   Then start the development server:
+
    ```bash
    npm start
    ```
 
-   This will start the development server and open the application in your default web browser at `http://localhost:3000`.
+   This will open the application in your default web browser at `http://localhost:3000`.
 
 ## Usage
 
