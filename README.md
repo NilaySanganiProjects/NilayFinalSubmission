@@ -35,7 +35,21 @@ Follow these steps to set up and run the application locally:
    npm install
    ```
 
-3. **Start the Development Server**
+3. **Ensure Required Packages Are Installed**
+
+   If `react-router-dom` and `bootstrap` are not installed, you can add them manually:
+
+   - **React Router DOM**: 
+     ```bash
+     npm install react-router-dom
+     ```
+
+   - **Bootstrap**: 
+     ```bash
+     npm install bootstrap
+     ```
+
+4. **Start the Development Server**
 
    If the `start` script is missing, add it manually to the `package.json` file in your project root:
 
@@ -85,7 +99,7 @@ The application has the following folder structure:
     Register.js    // Component for user registration
   /assets
     logo.png       // Logo image used in the application
-    bg1.png         // Background image used in the application
+    bg1.png        // Background image used in the application
   App.css          // Styling for the application
   App.js           // Main application component with routing
   index.js         // Entry point of the React application
